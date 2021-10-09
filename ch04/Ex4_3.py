@@ -1,0 +1,1 @@
+input("Please input score : ")

@@ -1,0 +1,6 @@
+f = open("student_record2.txt","a+",encoding="UTF-8")
+f.writelines(["\n4. น้องหนึ่ง" , "\n5. น้องสอง"])
+f.seek(0)
+std_data = f.read()
+print(std_data)
+f.close()
