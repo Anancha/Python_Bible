@@ -1,0 +1,23 @@
+import numpy as np
+
+a = np.arange(10)
+b = np.arange(3,15)
+c = np.arange(2,10,2)
+d = np.arange(4,dtype=float)
+e = np.arange(1,10,dtype=float)
+f = np.arange(1,10,2,dtype=float)
+g = np.arange(9,15.5,2)
+h = np.arange(-3,2)
+i = np.arange(5,2)
+j = np.arange(5,2,-2)
+
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
+print(g)
+print(h)
+print(i)
+print(j)
